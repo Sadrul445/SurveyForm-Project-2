@@ -1,0 +1,91 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(18, 28, 124, 0.808);
+    color: rgba(255, 255, 255, 0.644);
+}
+form{
+    position: relative;
+    top: 50px;
+    left: 25%;
+    width: 50%;
+    background-color: rgba(73, 73, 73, 0.685);
+    border-radius: 5px;    
+}
+#form-container{
+    padding: 20px;
+}
+#title{
+    text-align: center;
+    font-weight: 600;
+}
+#description{
+    text-align: center;
+    font-style: italic;
+}
+input,option,select,label{
+    position: relative;
+    font-size: 15px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    padding-left: 10px;   
+}
+p{
+    font-size: 17px;
+}
+textarea{
+    font-size: 18px;
+    padding-left: 10px; 
+    border-radius: 5px;
+    width:100%;
+}
+#age,#name,#email{
+    width: 100%;
+}
+#dropdown{
+    width: 100%;
+}
+label{
+    display: flex;
+    margin: 0;
+}
+#submit{
+    display: flex;
+    background-color: lightgreen;
+    width: 100%;
+    padding-left: 45% ;
+    border-radius: 5px;
+    border: none;
+}
+#submit:hover{
+    background-color: rgb(36, 134, 36);
+    color: lightyellow;
+}
+@media screen and (min-width: 360px){
+    form{
+        position: relative;
+        left: 10%;
+        width: 80%;
+        border-radius: 5px;  
+    }
+        h1{
+            font-size: 30px;    
+        }
+        p{
+            font-size: 15px;    
+        }
+        
+        #submit{
+            position: relative;
+            padding-right: 50%;
+            text-align: center;
+            margin-top: 5px;
+        }
+        #age,#name,#email,textarea{
+            width: 95%;
+        }
+        input,option,select,label{
+            font-size: 15px;
+            padding: 5px;
+        }
+    }
